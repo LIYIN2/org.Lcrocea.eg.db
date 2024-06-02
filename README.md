@@ -2,8 +2,6 @@
 
 ## R package for enrichment analysis of large yellow croaker
 
----
-
 ## 1. 确保旧版R包卸载
 
 ```r
