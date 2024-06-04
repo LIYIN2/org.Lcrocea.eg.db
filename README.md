@@ -20,6 +20,7 @@ https://github.com/LIYIN2/org.Lcrocea.eg.db/releases/download/v2/org.Lcrocea.eg.
 ## 3. 安装
 
 ```r
+BiocManager::install("AnnotationDbi")
 install.packages("./org.Lcrocea.eg.db/", repos = NULL, type = "sources")
 ```
 
@@ -33,5 +34,5 @@ columns(org.Lcrocea.eg.db)
 ## 5. 卸载
 
 ```r
-remove.packages(("org.Lcrocea.eg.db"),lib = .libPaths()[1])
+remove.packages(("org.Lcrocea.eg.db"))
 ```
