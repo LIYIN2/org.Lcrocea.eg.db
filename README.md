@@ -21,13 +21,13 @@ https://github.com/LIYIN2/org.Lcrocea.eg.db/releases/download/v2/org.Lcrocea.eg.
 
 ```r
 install.packages("./org.Lcrocea.eg.db/", repos = NULL, type = "sources")
-columns(org.Lcrocea.eg.db)
 ```
 
 ## 4. 加载
 
 ```r
 library(org.Lcrocea.eg.db)
+columns(org.Lcrocea.eg.db)
 ```
 
 ## 5. 卸载
