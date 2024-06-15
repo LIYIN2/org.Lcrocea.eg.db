@@ -1,5 +1,3 @@
----
-
 # org.Lcrocea.eg.db
 
 ## R package for enrichment analysis of large yellow croaker
@@ -42,8 +40,6 @@ columns(org.Lcrocea.eg.db)
 remove.packages("org.Lcrocea.eg.db")
 
 ```
-
----
 
 ## 6. 应用
 
