@@ -15,7 +15,7 @@ remove.packages("org.Lcrocea.eg.db")
 
 ```
 
-<https://github.com/LIYIN2/org.Lcrocea.eg.db/releases/download/v2/org.Lcrocea.eg.db_20240602.zip>
+https://github.com/LIYIN2/org.Lcrocea.eg.db/releases/download/v2/org.Lcrocea.eg.db_20240615.zip
 
 ```
 
