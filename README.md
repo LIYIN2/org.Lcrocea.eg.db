@@ -78,9 +78,9 @@ library(clusterProfiler)
 rich <- enricher(gene = gene$id,
                  TERM2GENE = gene2des[c("Pathway","GID")],
                  TERM2NAME = gene2des[c("Pathway","Name")],
-                 pvalueCutoff = 1,###原值为0.05
+                 pvalueCutoff = 0.05,
                  pAdjustMethod = 'BH',
-                 qvalueCutoff = 1,###原值为0.2
+                 qvalueCutoff = 02,
                  maxGSSize = 500)
 ```
 
