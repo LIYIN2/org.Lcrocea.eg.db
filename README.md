@@ -132,3 +132,7 @@ gene_info <- AnnotationDbi::select(org.Lcrocea.eg.db,
                                    keys = keys(org.Lcrocea.eg.db),
                                    columns = c("GID","gene_sympol","pfam_sympol"))
 ```
+### 7.0 CroceaEnrich包使用
+library(devtools)
+devtools::install_github("LIYIN2/CroceaEnrich")
+CroceaEnrich(file, org.Lcrocea.eg.db, prefix = "CroceaEnrich_Result")
