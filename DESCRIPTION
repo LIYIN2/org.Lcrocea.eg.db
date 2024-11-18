@@ -1,0 +1,13 @@
+Package: org.Lcrocea.eg.db
+Title: Genome wide annotation for Larimichthys crocea
+Description: Genome wide annotation for Larimichthys crocea, primarily based on mapping using Entrez Gene identifiers.
+Version: 2.1.0
+Author: liy <liyin59375@gmail.com>
+Maintainer: liy <liyin59375@gmail.com>
+Depends: R (>= 2.7.0), methods, AnnotationDbi (>= 1.64.1)
+Suggests: DBI, annotate, RUnit
+License: Artistic-2.0
+organism: Larimichthys crocea
+species: Larimichthys crocea
+biocViews: OrgDb, annotation
+
